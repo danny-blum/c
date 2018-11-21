@@ -38,9 +38,6 @@ void test(unsigned int n)
     printf("test 1 -- u:%u x:0x%x: s:%s\n", n, n, int_to_hex_str(n));
 }
 
-
-
-
 int main(int argc, char *argv[])
 {
     test(4345);
@@ -54,4 +51,3 @@ int main(int argc, char *argv[])
  
     return 0; 
 }
-
